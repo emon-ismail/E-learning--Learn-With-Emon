@@ -17,9 +17,9 @@ const Option = ({option,correctAnswer}) => {
             <div>
                 
             
-            <div class="form-check">
-            <input onClick={()=>check(option)} class="form-check-input ms-5" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
-            <label class="form-check-label" for="flexRadioDefault1">
+            <div className="form-check">
+            <input onClick={()=>check(option)} className="form-check-input ms-5" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
+            <label className="form-check-label" for="flexRadioDefault1">
                 
             <h6 className=''>{option}</h6>
             
