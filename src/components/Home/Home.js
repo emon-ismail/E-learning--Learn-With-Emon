@@ -9,17 +9,17 @@ const Home = () => {
   const quizes = useLoaderData();
   return (
     <div>
-      <div class="card mb-3 max-width: 540px container">
-        <div class="row g-0">
-          <div class="col-md-4">
+      <div className="card mb-3 max-width: 540px container">
+        <div className="row g-0">
+          <div className="col-md-4">
             <Lottie className="w-100% " animationData={learn} loop={true} />
           </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title fw-bolder text-decoration-underline">
+          <div className="col-md-8">
+            <div className="card-body">
+              <h5 className="card-title fw-bolder text-decoration-underline">
                 Our Motive
               </h5>
-              <p class="card-text fw-bolder fs-3 lh-base mt-5">
+              <p className="card-text fw-bolder fs-3 lh-base mt-5">
                 Our Aim is to make skilled and educated nation.
                 <br /> You can visit our courses if you want.
               </p>
@@ -30,9 +30,9 @@ const Home = () => {
 
       <h1>Courses:{quizes.data.length}</h1>
       {
-        quizes.map(quiz=> <Quiz key={quiz.data} quiz={quiz}></Quiz>
+        // quizes.map(quiz=> <Quiz key={quiz.data} quiz={quiz}></Quiz>
             
-        )
+        // )
       }
     </div>
   );

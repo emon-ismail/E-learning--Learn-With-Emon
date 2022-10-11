@@ -22,17 +22,17 @@ const Navbarr = () => {
           <div className='me-5'>
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <NavLink NavLink className="nav-link active" aria-current="page" to="/home">Home </NavLink>
+              <NavLink className=" nav-link active" aria-current="page" to="/home">Home </NavLink>
             </li>
             <li className="nav-item">
-            <NavLink NavLink className="nav-link active" aria-current="page" to="/topics">Topics </NavLink>
+            <NavLink  className="nav-link active" aria-current="page" to="/topics">Topics </NavLink>
             </li>
             <li className="nav-item">
-            <NavLink NavLink className="nav-link active" aria-current="page" to="/statics">Statics</NavLink>
+            <NavLink className="nav-link active" aria-current="page" to="/statics">Statics</NavLink>
             </li>
 
             <li className="nav-item">
-            <NavLink NavLink className="nav-link active" aria-current="page" to="/blog">Blog</NavLink>
+            <NavLink  className="nav-link active" aria-current="page" to="/blog">Blog</NavLink>
             </li>
           </ul>
           </div>

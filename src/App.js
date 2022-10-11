@@ -9,6 +9,7 @@ import Home from './components/Home/Home';
 import Topics from './components/Topics/Topics';
 import Statics from './components/Statics/Statics';
 import Blog from './components/Blog/Blog';
+import Error from './components/Error/Error'
 
 function App() {
   const router=createBrowserRouter([
@@ -35,7 +36,7 @@ function App() {
       path:'/blog',
       element:<Blog></Blog>
     },
-    {path: '*',element: <div>Error 404 !</div>}
+    {path: '*',element: <Error></Error>}
 
   ]
 }
