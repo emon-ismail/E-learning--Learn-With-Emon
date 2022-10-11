@@ -38,7 +38,10 @@ const Navbarr = () => {
           </div>
         </div>
       </div>
+      
     </nav>
+    
+    
     );
 };
 
