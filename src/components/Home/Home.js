@@ -10,7 +10,7 @@ const Home = () => {
   const quiz=[];
   return (
     <div>
-      <div className="card mb-3 max-width: 540px container">
+      <div className="card mb-3 max-width: 540px container bg-info mt-2">
         <div className="row g-0">
           <div className="col-md-4">
             <Lottie className="w-100% " animationData={learn} loop={true} />
@@ -29,12 +29,13 @@ const Home = () => {
         </div>
       </div>
 
+
+      
+
       <h1>Courses:{quizes.data.length}</h1>
       {
-        quizes.topic.map((quiz)=>
-        {
-          console.log(quiz.name)
-        } )
+        quizes.data.map((quiz)=><Quiz key={quiz.id}   quiz={quiz} ></Quiz>
+       )
       }
     </div>
   );

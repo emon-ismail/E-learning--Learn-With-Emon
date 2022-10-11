@@ -25,7 +25,10 @@ function App() {
       element:<Home></Home>
     },
     {
-      path:'/topics',
+      path:'/topics/:quizid',
+      loader:async({params})=>{
+        return fetch(`https://jsonplaceholder.typicode.com/users/${params.quizid}`)
+      } ,
       element: <Topics></Topics>
     },
     {
@@ -36,6 +39,10 @@ function App() {
       path:'/blog',
       element:<Blog></Blog>
     },
+{
+  
+},
+
     {path: '*',element: <Error></Error>}
 
   ]

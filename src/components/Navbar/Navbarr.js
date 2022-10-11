@@ -25,7 +25,7 @@ const Navbarr = () => {
               <NavLink className=" nav-link active" aria-current="page" to="/home">Home </NavLink>
             </li>
             <li className="nav-item">
-            <NavLink  className="nav-link active" aria-current="page" to="/topics">Topics </NavLink>
+            <NavLink  className="nav-link active" aria-current="page" to="/home">Topics </NavLink>
             </li>
             <li className="nav-item">
             <NavLink className="nav-link active" aria-current="page" to="/statics">Statics</NavLink>

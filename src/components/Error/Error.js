@@ -4,8 +4,8 @@ import errorr from "../errorr.json";
 
 const Error = () => {
     return (
-        <div>
-             <Lottie className="w-100% " animationData={errorr} loop={true} />
+        <div className='ms-5  ms-5  d-flex justify-content-center'>
+             <Lottie className="w-50 ms-5 " animationData={errorr} loop={true} />
         </div>
     );
 };
