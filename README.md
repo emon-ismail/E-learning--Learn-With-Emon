@@ -21,7 +21,7 @@
 
 # Reporisitory Link : https://github.com/programming-hero-web-course2/b6-quiz-crackerz-emon-ismail
 
-# Live site Link: 
+# Live site Link: https://assignment-p-9.netlify.app/home
 
 
 
