@@ -12,7 +12,7 @@ const Statics = () => {
     
 
     return (
-      
+       <ResponsiveContainer  >
         
          <div className='container mt-5 ms-5  d-flex justify-content-center'>
             
@@ -22,12 +22,11 @@ const Statics = () => {
     <XAxis dataKey="name" />
     <YAxis />
   </LineChart>
-  <div><h1>Total</h1></div>
+  
   
         </div>
         
-        
-   
+       </ResponsiveContainer>
     );
 };
 
