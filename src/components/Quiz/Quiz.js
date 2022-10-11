@@ -16,9 +16,9 @@ const Quiz = ({ quiz }) => {
       }
 
       {
-        <div class="container d-flex justify-content-center mt-5 w-100% bg-info">
+        <div className="container d-flex justify-content-center mt-5 w-100% bg-info">
           <div >
-            <div class=""><div className="container    ">
+            <div className=""><div className="container    ">
           <div className="card bg-danger" style={{ width: "18rem" }}>
             <img className="card-img-top" src={logo} alt="Card image cap" />
             <div className="card-body">
