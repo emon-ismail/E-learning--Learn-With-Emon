@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { LineChart, Line, CartesianGrid, XAxis, YAxis } from 'recharts';
+import { LineChart, Line, CartesianGrid, XAxis, YAxis, ResponsiveContainer } from 'recharts';
 
 
 const Statics = () => {
@@ -12,14 +12,22 @@ const Statics = () => {
     
 
     return (
-        <div className='container mt-5 ms-5  d-flex justify-content-center'>
-            <LineChart width={600} height={300} data={info.data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
+      
+        
+         <div className='container mt-5 ms-5  d-flex justify-content-center'>
+            
+            <LineChart  width={400} height={300} data={info.data} margin={{ top: 5, right: 20, bottom: 5, left: 10 }}>
     <Line type="monotone" dataKey="total" stroke="#8884d8" />
     <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
     <XAxis dataKey="name" />
     <YAxis />
   </LineChart>
+  <div><h1>Total</h1></div>
+  
         </div>
+        
+        
+   
     );
 };
 
