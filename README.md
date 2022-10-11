@@ -1,4 +1,24 @@
 # Getting Started with Create React App
+   Project Name: Learn With Emon
+
+
+
+
+
+Its Features:
+**  Easy Ui Design
+** Responsive
+** Faster
+** Easily process to learn
+
+
+Tools use:
+**Bootstrap
+**Lottie for animation
+** React router-dom
+** Chart
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

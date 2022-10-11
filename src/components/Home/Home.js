@@ -7,6 +7,7 @@ import Quiz from "../Quiz/Quiz";
 
 const Home = () => {
   const quizes = useLoaderData();
+  const quiz=[];
   return (
     <div>
       <div className="card mb-3 max-width: 540px container">
@@ -30,9 +31,10 @@ const Home = () => {
 
       <h1>Courses:{quizes.data.length}</h1>
       {
-        // quizes.map(quiz=> <Quiz key={quiz.data} quiz={quiz}></Quiz>
-            
-        // )
+        quizes.topic.map((quiz)=>
+        {
+          console.log(quiz.name)
+        } )
       }
     </div>
   );
