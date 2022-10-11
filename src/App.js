@@ -27,7 +27,7 @@ function App() {
     {
       path:'/topics/:quizid',
       loader:async({params})=>{
-        return fetch(`https://jsonplaceholder.typicode.com/users/${params.quizid}`)
+        return fetch(`https://openapi.programming-hero.com/api/quiz/${params.quizid}`)
       } ,
       element: <Topics></Topics>
     },
